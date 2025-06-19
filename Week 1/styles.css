@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color :  #000303;
+    line-height: 1.6;
+}
+header {
+    background-color:#3febc9;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    padding: 2rem;
+}
+footer {
+    background-color: #3febc9;
+    color: #fff;
+    padding: 1rem;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+#footer {
+  background-color: #3febc9;
+  padding: 20px;
+  position: relative;
+}
+#footer p {
+  margin: 5px 0;
+}
+.social-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.social-icon ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+.social-icon li {
+  display: inline-block;
+}
+.social-icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 4px;
+  transition: transform 0.3s;
+}
+.social-icon img:hover {
+  transform: scale(1.1);
+}
+#timeline {
+  padding: 20px;
+  background-color: #ffffff;
+}
+#timeline h2 {
+  text-align: center;
+  color: #333;
+}
+#timeline table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+#timeline th, #timeline td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+#timeline th {
+  background-color: #3febc9;
+  color: white;
+}
+.comment-section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+#comment-list p {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+#comment-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#submit-comment {
+  background-color: #3febc9;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+/*gap: 10px; /*spacing between images */
+  justify-content: center;
+}
+
+/* Individual gallery item */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 275px;
+  height: 275px;
+  box-sizing: border-box;
+  transition: border 0.3s;
+}
+
+/* On hover, change border color */
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+/* Make image fit the box */
+div.gallery img {
+  width: 100%;
+  height: 100%;
+  display:block;
+}
