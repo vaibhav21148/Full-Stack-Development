@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5 text-center">
+    <h3>{{ message }}</h3>
+    <a href="{% url 'login' %}" class="btn btn-success mt-4">Go to Login</a>
+</div>
+{% endblock %}
