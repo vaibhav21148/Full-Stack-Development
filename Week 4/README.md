@@ -7,7 +7,7 @@ This project was built as part of **Week 4** of the Full Stack Web Development c
 
 ---
 
-## 🚀 Features
+##  Features
 
 - ✅ Register, Login, Logout (Token-based authentication)
 - ✅ Upload videos with title and description
@@ -22,7 +22,7 @@ This project was built as part of **Week 4** of the Full Stack Web Development c
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 **Frontend:**
 - React.js
@@ -56,9 +56,9 @@ MyTube/
 │   └── package.json
 └── README.md              
 
----
+```
 
-### 🐍 Backend Setup
+###  Backend Setup
 
 ```bash
 cd backend
@@ -67,7 +67,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-### 🌐 Frontend Setup
+###  Frontend Setup
 
 ```bash
 cd frontend
@@ -76,25 +76,27 @@ npm start
 ```
 
 Frontend: http://localhost:3000  
+
 Backend API: http://127.0.0.1:8000/api/
 
 ---
 
 
-## 📚 Possible Future Enhancements
+##  Possible Future Enhancements
 
 - Edit/Delete video option
 - User profile page
 - Tags and categories
 - Playlists
-- Video analytics (views)
-- Deployment (Netlify + Render)
+- Video analytics
+- Deployment
 
 ---
 
-## 🧑‍💻 Author
+##  Developer
 
-**Vaibhav**  
-Full Stack Web Development | IIT Bombay | Week 4 Project
+**Vaibhav** <br>
+Final Project <br>
+Full Stack Web Development | Learner's Space
 
 ---
